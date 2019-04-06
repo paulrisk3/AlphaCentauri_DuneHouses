@@ -69,7 +69,7 @@ Hole of Aspiration
 #END
 
 #WATERBASES
-Sea Collective
+Cala City
 Deep Community
 Sea Hive
 Port Yang
@@ -136,8 +136,7 @@ a pledge of Blood Truce would seem in order."
 
 "Progenitor: perceive no point either. Mutual agreement:
 truce."
-"Your needs: truth: not same. Continued conflict: beneficial
-to Progenitor!"
+truce."
 
 #ALIENFACTIONTREATY
 #xs 440
