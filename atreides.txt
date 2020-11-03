@@ -5,12 +5,12 @@
 
 #ATREIDES
 House Atreides, The Duke, Atreides, M, 1, Leto, M, 0, 1, 0, 0, 1, 
-TECH, Mobile, TECH, DocFlex, SOCIAL, -PROBE, SOCIAL, +MORALE, FREEFAC, 28, FREEABIL, 24, AQUATIC, 0, MORALE, 0, 
+TECH, Mobile, TECH, DocFlex, SOCIAL, -GROWTH, SOCIAL, -EFFIC, FREEFAC, 28, FREEABIL, 26, AQUATIC, 0, 
 Values, Power, MORALE, 
 nil, nil, nil, 
 Nautilus, Nautil.
-Duncan, Thufir, Jones' Locker
-Duke, noble, weak-willed, noble, weak-willed, 
+Ensign Jones, Thufir, Jones' Locker
+Duke, heroic, bloodthirsty, intrepid, barbarous, 
 Outmoded Misfit
 exploit the riches of the sea
 to harness the vast potential of the oceans
@@ -29,11 +29,7 @@ my privateers
 the Law of the Sea
 
 #BASES
-Atreides Landing
 Castle Caladan
-Cala City
-Cidrit Town
-Deadman Tavern
 Landlubber Inn
 Buried Treasure
 Sunny Oasis
@@ -60,10 +56,9 @@ Cannon's Thunder
 #END
 
 #WATERBASES
-Safe Haven
+Cala City
 Port Svensgaard
 Crow's Nest
-Underwater Park
 Provision Point
 Parrot Landing
 Barbary Coast
@@ -93,7 +88,7 @@ awakens. The sleeper must awaken.
 #DATALINKS1
 ^LEADER: {Duke Leto Atreides}
 ^BACKGROUND: {Unity Astrogator}
-^AGENDA: {}
+^AGENDA: {Pillage and burn}
 ^TECH: {Doctrine: Mobility, Doctrine: Flexibility}
 
 #DATALINKS2
@@ -114,8 +109,8 @@ tedious conflict. Let us pledge Blood Truce and return
 to our explorations!"
 
 "Agreed. Forth to adventure!"
-"There is no greater adventure than the defeat of and
-dlesome foe. Prepare to be annihilated!"
+"There is no greater adventure than the defeat of a
+meddlesome foe. Prepare to be annihilated!"
 
 #FACTIONTREATY
 #xs 440
@@ -126,7 +121,8 @@ to cement our common bonds."
 
 "We would never think of encroaching on your interests,
 $NAME3. Let's sign that Treaty."
-$NAME3. Let's sign that Treaty."
+"We'd like to reserve judgement. Our expansion plans
+may yet come into conflict."
 
 #ALIENFACTIONTRUCE
 #xs 440
@@ -137,7 +133,8 @@ to our explorations!"
 
 "Exploration of Manifold Six: much more important. Agreement!"
 "
-"
+"Already familiar: Manifold Six. Best adventure: your
+destruction!"
 
 #ALIENFACTIONTREATY
 #xs 440
@@ -150,6 +147,6 @@ Treaty of Friendship and formalize what is already manifest."
 
 "Land: Progenitor. Sea: $NAME3. Treaty: agreed."
 "All Manifold Six: possible conflict. Treaty: unwise
-r:
+at this time."
 
 # ; This line must remain at end of file
